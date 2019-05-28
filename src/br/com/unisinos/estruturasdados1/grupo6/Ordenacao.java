@@ -39,6 +39,8 @@ public class Ordenacao {
 		}
 	}
 
+	/* ------------------------------------------------------ */
+	
 	private static <T extends Comparable<? super T>> void exchange(T[] a, int i, int j) {
 		T tmp = a[i];
 		a[i] = a[j];

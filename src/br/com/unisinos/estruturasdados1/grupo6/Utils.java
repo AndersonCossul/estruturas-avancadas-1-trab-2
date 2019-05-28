@@ -38,6 +38,8 @@ public class Utils {
 		return Math.sqrt(calcVariancia(elements));
 	}
 	
+	/* ------------------------------------------------------ */
+	
 	public static int[] getAscCrescente(int size) {
 		int[] elements = new int[size];
 		
@@ -49,13 +51,25 @@ public class Utils {
 	}
 	
 	public static int[] getDescDecrescente(int size) {
-		// todo
-		return new int[size];
+		int[] elements = new int[size];
+		
+		int index = 0;
+		for (int i = (size - 1); i >= 0; i--, index++) {
+			elements[index] = i;
+		}
+		
+		return elements;
 	}
 	
 	public static int[] getAleatoria(int size) {
-		// todo
-		return new int[size];
+		int[] asc = getAscCrescente(size);
+		for (int i = 0; i < size; i++) {
+			int indexAleatorio = (int) (Math.random() * size);
+			int temp = asc[i];
+			asc[i] = asc[indexAleatorio];
+			asc[indexAleatorio] = temp;
+		}
+		return asc;
 	}
 	
 	public static int[] getAleatoriaRepetida(int size) {

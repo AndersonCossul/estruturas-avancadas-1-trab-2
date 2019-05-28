@@ -11,6 +11,7 @@ public class Main {
 		long timestampInicial = System.nanoTime();
 		
 		int[] ascCrescente128 = Utils.getAscCrescente(128);
+		//printList(ascCrescente128);
 		int[] ascCrescente256 = Utils.getAscCrescente(256);
 		int[] ascCrescente512 = Utils.getAscCrescente(512);
 		int[] ascCrescente1024 = Utils.getAscCrescente(1024);
@@ -21,6 +22,8 @@ public class Main {
 		int[] ascCrescente32768 = Utils.getAscCrescente(32768);
 		int[] ascCrescente65536 = Utils.getAscCrescente(65536);
 		
+		int[] descDecrescente128 = Utils.getDescDecrescente(128);
+//		printList(descDecrescente128);
 		int[] descDecrescente256 = Utils.getDescDecrescente(256);
 		int[] descDecrescente512 = Utils.getDescDecrescente(512);
 		int[] descDecrescente1024 = Utils.getDescDecrescente(1024);
@@ -32,6 +35,7 @@ public class Main {
 		int[] descDecrescente65536 = Utils.getDescDecrescente(65536);
 		
 		int[] aleatoria128 = Utils.getAleatoria(128);
+		printList(aleatoria128);
 		int[] aleatoria256 = Utils.getAleatoria(256);
 		int[] aleatoria512 = Utils.getAleatoria(512);
 		int[] aleatoria1024 = Utils.getAleatoria(1024);
@@ -55,5 +59,12 @@ public class Main {
 
 		long timestampFinal = System.nanoTime();
 		System.out.println("Termiado em " + ((timestampFinal - timestampInicial) / 1_000_000_000.0) + "s");
+	}
+	
+	static void printList(int[] list) {
+		for (int i : list) {
+			System.out.print(i + " ");
+		}
+		System.out.println();
 	}
 }
