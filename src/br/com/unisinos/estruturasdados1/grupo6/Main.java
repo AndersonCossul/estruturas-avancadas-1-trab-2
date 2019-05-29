@@ -35,7 +35,6 @@ public class Main {
 		int[] descDecrescente65536 = Utils.getDescDecrescente(65536);
 		
 		int[] aleatoria128 = Utils.getAleatoria(128);
-		printList(aleatoria128);
 		int[] aleatoria256 = Utils.getAleatoria(256);
 		int[] aleatoria512 = Utils.getAleatoria(512);
 		int[] aleatoria1024 = Utils.getAleatoria(1024);
