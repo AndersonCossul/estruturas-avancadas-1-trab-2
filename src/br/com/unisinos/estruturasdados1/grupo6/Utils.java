@@ -1,6 +1,6 @@
 /**
  * Grupo: 6
- * Integrantes: Anderson Cossul, Bibiana Costa, Fernando Sá, Maithe Mello
+ * Integrantes: Anderson Cossul, Fernando Sá, Maithe Mello
  * */
 package br.com.unisinos.estruturasdados1.grupo6;
 
@@ -40,8 +40,8 @@ public class Utils {
 	
 	/* ------------------------------------------------------ */
 	
-	public static int[] getAscCrescente(int size) {
-		int[] elements = new int[size];
+	public static Integer[] getAscCrescente(int size) {
+		Integer[] elements = new Integer[size];
 		
 		for (int i = 0; i < size; i++) {
 			elements[i] = i;
@@ -50,8 +50,8 @@ public class Utils {
 		return elements;
 	}
 	
-	public static int[] getDescDecrescente(int size) {
-		int[] elements = new int[size];
+	public static Integer[] getDescDecrescente(int size) {
+		Integer[] elements = new Integer[size];
 		
 		int index = 0;
 		for (int i = (size - 1); i >= 0; i--, index++) {
@@ -61,19 +61,34 @@ public class Utils {
 		return elements;
 	}
 	
-	public static int[] getAleatoria(int size) {
-		int[] asc = getAscCrescente(size);
-		for (int i = 0; i < size; i++) {
-			int indexAleatorio = (int) (Math.random() * size);
-			int temp = asc[i];
-			asc[i] = asc[indexAleatorio];
-			asc[indexAleatorio] = temp;
-		}
-		return asc;
+	public static Integer[] getAleatoria(int size) {
+		Integer[] asc = getAscCrescente(size);
+		return aleatorizar(asc);
 	}
 	
-	public static int[] getAleatoriaRepetida(int size) {
-		// todo
-		return new int[size];
+	public static Integer[] getAleatoriaRepetida(int size) {
+		int proporcao = (int)(size * 0.05) + 1; // + 1 para incluir o próprio número
+		
+		Integer[] asc = new Integer[size];
+		for (int i = 0; i < asc.length; i += proporcao) {
+			for (int j = 0; j < proporcao; j++) {
+				int index = i + j;
+				if (index < size) {
+					asc[index] = i;
+				}
+			}
+		}		
+		
+		return aleatorizar(asc);
+	}
+	
+	private static Integer[] aleatorizar(Integer[] array) {
+		for (int i = 0; i < array.length; i++) {
+			int indexAleatorio = (int) (Math.random() * array.length);
+			int temp = array[i];
+			array[i] = array[indexAleatorio];
+			array[indexAleatorio] = temp;
+		}
+		return array;
 	}
 }

@@ -1,0 +1,43 @@
+Integer[] ascCrescente256 = Utils.getAscCrescente(256);
+		Integer[] ascCrescente512 = Utils.getAscCrescente(512);
+		Integer[] ascCrescente1024 = Utils.getAscCrescente(1024);
+		Integer[] ascCrescente2048 = Utils.getAscCrescente(2048);
+		Integer[] ascCrescente4096 = Utils.getAscCrescente(4096);
+		Integer[] ascCrescente8192 = Utils.getAscCrescente(8192);
+		Integer[] ascCrescente16384 = Utils.getAscCrescente(16384);
+		Integer[] ascCrescente32768 = Utils.getAscCrescente(32768);
+		Integer[] ascCrescente65536 = Utils.getAscCrescente(65536);
+		
+		Integer[] descDecrescente128 = Utils.getDescDecrescente(128);
+		Integer[] descDecrescente256 = Utils.getDescDecrescente(256);
+		Integer[] descDecrescente512 = Utils.getDescDecrescente(512);
+		Integer[] descDecrescente1024 = Utils.getDescDecrescente(1024);
+		Integer[] descDecrescente2048 = Utils.getDescDecrescente(2048);
+		Integer[] descDecrescente4096 = Utils.getDescDecrescente(4096);
+		Integer[] descDecrescente8192 = Utils.getDescDecrescente(8192);
+		Integer[] descDecrescente16384 = Utils.getDescDecrescente(16384);
+		Integer[] descDecrescente32768 = Utils.getDescDecrescente(32768);
+		Integer[] descDecrescente65536 = Utils.getDescDecrescente(65536);
+		
+		Integer[] aleatoria128 = Utils.getAleatoria(128);
+		Integer[] aleatoria256 = Utils.getAleatoria(256);
+		Integer[] aleatoria512 = Utils.getAleatoria(512);
+		Integer[] aleatoria1024 = Utils.getAleatoria(1024);
+		Integer[] aleatoria2048 = Utils.getAleatoria(2048);
+		Integer[] aleatoria4096 = Utils.getAleatoria(4096);
+		Integer[] aleatoria8192 = Utils.getAleatoria(8192);
+		Integer[] aleatoria16384 = Utils.getAleatoria(16384);
+		Integer[] aleatoria32768 = Utils.getAleatoria(32768);
+		Integer[] aleatoria65536 = Utils.getAleatoria(65536);
+		
+		Integer[] aleatoriaRepetida128 = Utils.getAleatoriaRepetida(128);
+		Integer[] aleatoriaRepetida256 = Utils.getAleatoriaRepetida(256);
+		Integer[] aleatoriaRepetida512 = Utils.getAleatoriaRepetida(512);
+		Integer[] aleatoriaRepetida1024 = Utils.getAleatoriaRepetida(1024);
+		Integer[] aleatoriaRepetida2048 = Utils.getAleatoriaRepetida(2048);
+		Integer[] aleatoriaRepetida4096 = Utils.getAleatoriaRepetida(4096);
+		
+		Integer[] aleatoriaRepetida8192 = Utils.getAleatoriaRepetida(8192);
+		Integer[] aleatoriaRepetida16384 = Utils.getAleatoriaRepetida(16384);
+		Integer[] aleatoriaRepetida32768 = Utils.getAleatoriaRepetida(32768);
+		Integer[] aleatoriaRepetida65536 = Utils.getAleatoriaRepetida(65536);
