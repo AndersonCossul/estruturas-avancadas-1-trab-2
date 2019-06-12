@@ -1,0 +1,114 @@
+Iniciando...
+
+
+n: 128
+DescDecrescente:
+Bubble--------> 746197
+Heap----------> 54802
+Insertion-----> 374357
+Merge---------> 33047
+Quick---------> 196646
+Selection-----> 395777
+Shell---------> 12965
+-------------
+
+n: 256
+DescDecrescente:
+Bubble--------> 436266
+Heap----------> 29955
+Insertion-----> 175134
+Merge---------> 72210
+Quick---------> 394908
+Selection-----> 108057
+Shell---------> 193232
+-------------
+
+n: 512
+DescDecrescente:
+Bubble--------> 234849
+Heap----------> 37440
+Insertion-----> 260623
+Merge---------> 181119
+Quick---------> 125686
+Selection-----> 416893
+Shell---------> 99868
+-------------
+
+n: 1024
+DescDecrescente:
+Bubble--------> 372808
+Heap----------> 33599
+Insertion-----> 148154
+Merge---------> 13510
+Quick---------> 132710
+Selection-----> 28298
+Shell---------> 56635
+-------------
+
+n: 2048
+DescDecrescente:
+Bubble--------> 113060
+Heap----------> 27738
+Insertion-----> 212683
+Merge---------> 60686
+Quick---------> 107525
+Selection-----> 100494
+Shell---------> 33394
+-------------
+
+n: 4096
+DescDecrescente:
+Bubble--------> 2154825
+Heap----------> 150465
+Insertion-----> 709701
+Merge---------> 35045
+Quick---------> 445061
+Selection-----> 191612
+Shell---------> 21971
+-------------
+
+n: 8192
+DescDecrescente:
+Bubble--------> 4633257
+Heap----------> 75749
+Insertion-----> 3479796
+Merge---------> 22729
+Quick---------> 822146
+Selection-----> 485806
+Shell---------> 20855
+-------------
+
+n: 16384
+DescDecrescente:
+Bubble--------> 11205802
+Heap----------> 103944
+Insertion-----> 2951527
+Merge---------> 31305
+Quick---------> 2522326
+Selection-----> 1116999
+Shell---------> 99940
+-------------
+
+n: 32768
+DescDecrescente:
+Bubble--------> 114958787
+Heap----------> 278720
+Insertion-----> 61363443
+Merge---------> 420234
+Quick---------> 103233638
+Selection-----> 36184883
+Shell---------> 326035
+-------------
+
+n: 65536
+DescDecrescente:
+Bubble--------> 209208363
+Heap----------> 621582
+Insertion-----> 119918290
+Merge---------> 659090
+Quick---------> 68654335
+Selection-----> 55751792
+Shell---------> 273403
+-------------
+
+Terminou.
